@@ -31,7 +31,5 @@ public class Test4_Exception {
         }
         // InputMismatchException
         // ArithmeticException
-
-
     }
 }
