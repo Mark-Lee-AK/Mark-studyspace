@@ -80,3 +80,130 @@ static String valueOf(Object o);//把不同类型的数据转换成字符串表�
 append();
 ```
 
+
+
+## 包装类
+
+> 把基本类型进行包装,提供更完善的功能
+
+### 与基本类型的对应关系
+
+| 基本类型 | 包装类型  |
+| :------- | --------- |
+| byte     | Byte      |
+| short    | Short     |
+| int      | Integer   |
+| long     | Long      |
+| float    | Float     |
+| double   | Double    |
+| char     | Character |
+| boolean  | Boolean   |
+
+### Numer
+
+> 所有数字包装类的抽象父类
+> 提供各种获取值的方式
+
+### 子类
+
+**Byte,Double,Flaot,Integer,Long,Short,**AtomicInteger,AtomicLong,BigDecimal,BigInteger
+
+常用方法
+
+### 常用方法
+
+| 返回类型 | 方法名        | 用法                       |
+| -------- | ------------- | -------------------------- |
+| byte     | byteValue()   | 以byte形式返回指定的数值   |
+| double   | doubleValue() | 以double形式返回指定的数值 |
+| float    | floatValue()  | 以float形式返回指定的数值  |
+| int      | intValue()    | 以int形式返回指定的数值    |
+| long     | longValue()   | 以long形式返回指定的数值   |
+| short    | shortValue()  | 以short形式返回指定的数值  |
+
+### Integer
+
+> 包装了int类型
+
+**创建对象**
+
+```java
+new Integer(5);
+Integer.valueOf(5);//在Integer类中,包含256个Integer缓存对象,范围是-128到127。使用valueOf()时,如果是指定范围内的值,访问缓存对象而不新建,如果是指定范围外的值,直接新建对象。
+```
+
+**常见方法**
+
+```java
+static int parseInt(String s);// 将字符串参数作为有符号的十进制整数进行解析
+static Integer valueOf(String s);// 返回保存指定的String的值的Integer对象
+```
+
+### Double
+
+> 包装了Double对象
+
+**创建对象**
+
+```java
+new Double(3.14);
+Double.valueOf(3.14);//和new没啥区别
+```
+
+**常见方法**
+
+```java
+static double parseDoule(String s);//返回一个新的double值,该值被初始化为指定String表示的值,这与Double类的valueOf()方法一致
+static Double valueOf(double d);//返回指定的double值的Double实例
+```
+
+
+
+## 日期类Date
+
+> java.util.Date 包中
+> 用来封装一个毫秒值表示一个精确的时间点
+> 从1970-1-1 0点开始的毫秒值
+
+### 创建对象
+
+```java
+new Date();//封装的是系统当前时间的毫秒值
+new Date(9000000000000000L);//封装指定的时间点
+```
+
+### 常用方法
+
+```java
+int getDay();
+int getHours();
+int getMonth();
+int getMinutes();
+long getTime();
+int getYear();
+String toLocaleString();
+compareTo(Date);//当前对象与参数对象比较,但前对象大于返回正数,小于返回负数,相同为0;
+```
+
+
+
+## 日期工具SimpleDateFormat
+
+> 日期格式化工具,可以把Date对象格式化成字符串,也可以把日期字符串解析成Date对象
+
+### 创建对象
+
+```java
+new SimpleDateFormat(String str);
+// str - > 格式表达式
+// yyyy-MM-dd HH:mm:ss -> 2019-10-30 20:30:30
+// MM/dd/yyy  ->  10/30/2019 
+```
+
+### 常见方法
+
+```java
+String d = format(Date);//把Date对象格式化成字符串
+Date d = parse(String);//把字符串解析成Date对象
+```
+

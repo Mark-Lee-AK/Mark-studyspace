@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157602e7-78b6-47eb-a473-fbe00e6f5361" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/api/AIP.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/api/Test1_Object.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/api/Test2_String.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/api/Test3_StringBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/api/Test4_Date.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/api/Test5_DateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/big/BigDecimal&amp;BigInteger.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/big/Test1_BigDecimal.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test4_Exception.class" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test4_Exception.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/异常.md" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/异常.md" />
-      <change beforePath="$PROJECT_DIR$/src/cn/tedu/exception/Test4_Exception.java" afterPath="$PROJECT_DIR$/src/cn/tedu/exception/Test4_Exception.java" />
-      <change beforePath="$PROJECT_DIR$/src/cn/tedu/exception/异常.md" afterPath="$PROJECT_DIR$/src/cn/tedu/exception/异常.md" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/AIP.md" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/AIP.md" />
+      <change beforePath="$PROJECT_DIR$/src/cn/tedu/api/AIP.md" afterPath="$PROJECT_DIR$/src/cn/tedu/api/AIP.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,21 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Test4_Date.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/tedu/api/Test4_Date.java">
+      <file leaf-file-name="Test1_BigDecimal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/tedu/big/Test1_BigDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test5_DateUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/tedu/api/Test5_DateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="291">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/cn/tedu/api/Test3_StringBuilder.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/api/Test4_Date.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/api/Test5_DateUtil.java" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/big/Test1_BigDecimal.java" />
       </list>
     </option>
   </component>
@@ -218,13 +203,6 @@
               <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tedu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tedu" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test5_DateUtil">
+  <component name="RunManager" selected="Application.Test1_BigDecimal">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -319,14 +297,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Test1_Object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1_BigDecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.tedu.api.*" />
+          <option name="PATTERN" value="cn.tedu.big.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.api.Test1_Object" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.big.Test1_BigDecimal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -489,19 +467,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test1_Object" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test2_String" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test3_StringBuilder" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test4_Date" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test5_DateUtil" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test2_String" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test3_StringBuilder" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test4_Date" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test5_DateUtil" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test1_BigDecimal" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test5_DateUtil" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test4_Date" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test3_StringBuilder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test2_String" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test1_Object" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test1_BigDecimal" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test5_DateUtil" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test4_Date" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test3_StringBuilder" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test2_String" />
       </list>
     </recent_temporary>
   </component>
@@ -524,7 +502,7 @@
       <workItem from="1572261519978" duration="6440000" />
       <workItem from="1572310812483" duration="23729000" />
       <workItem from="1572395831882" duration="3850000" />
-      <workItem from="1572429627944" duration="6832000" />
+      <workItem from="1572429627944" duration="8075000" />
     </task>
     <servers />
   </component>
@@ -561,7 +539,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54942000" />
+    <option name="totallyTimeSpent" value="56185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,6 +552,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1286" height="1032" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -584,7 +563,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3180291" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4300578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4300578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2947977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -617,20 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test2_RandomArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test5_ArraysMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test6_Foreach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -995,6 +960,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/big/BigDecimal&amp;BigInteger.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/api/Test5_DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tedu/api/Test4_Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -1003,10 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/api/Test5_DateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/big/Test1_BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="291">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
