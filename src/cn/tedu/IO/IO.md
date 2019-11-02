@@ -278,3 +278,4 @@ BufferedWriter(Writer out);
 | GBK        | 中国国标码                                                   | 最大65535                                                 | 英文使用单字节,中文使用双字节                        |
 | UNICODE    | 统一码Java的char类型字符 就采用Unicode编码                   | 100万+编码位,分为常用字符表,生僻字符表等,我们只是用常用表 | 常用字符表所有字符都采用双字节                       |
 | UTF-8      | Unicode传输格式Unicode Transformations Format为了解决Unicode英文字符字节量翻倍的问题,提出的一种变长的编码格式 |                                                           | 英文单字节某些字符双字节中文三字节一些特殊符号四字节 |
+
