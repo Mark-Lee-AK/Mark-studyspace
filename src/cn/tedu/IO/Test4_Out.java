@@ -11,7 +11,9 @@ public class Test4_Out {
     }
     // 利用BufferedWriter字节输出流写数据
     private static void method3() throws IOException {
-        Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("E:\\Mark\\out3.txt")));
+        Writer out = new BufferedWriter(
+                new OutputStreamWriter(
+                        new FileOutputStream("E:\\Mark\\out3.txt")));
         // 开始写入
         out.write(97);
         out.write(98);

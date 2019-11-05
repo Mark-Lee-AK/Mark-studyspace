@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157602e7-78b6-47eb-a473-fbe00e6f5361" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/IO/Test6_Code.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/prop/Test1_Prop.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/prop/XML+JSON+NIO.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/prop/jdbc.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/seri/Person.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/seri/Test_Seri.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/xml/Test1_Dom4j.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/xml/spring.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/IO.md" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/IO.md" />
-      <change beforePath="$PROJECT_DIR$/src/cn/tedu/IO/IO.md" afterPath="$PROJECT_DIR$/src/cn/tedu/IO/IO.md" />
+      <change beforePath="$PROJECT_DIR$/Mark-studyspace.iml" afterPath="$PROJECT_DIR$/Mark-studyspace.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test4_Out.class" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test4_Out.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/prop/XML+JSON+NIO.md" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/prop/XML+JSON+NIO.md" />
+      <change beforePath="$PROJECT_DIR$/src/cn/tedu/IO/Test4_Out.java" afterPath="$PROJECT_DIR$/src/cn/tedu/IO/Test4_Out.java" />
+      <change beforePath="$PROJECT_DIR$/src/cn/tedu/prop/XML+JSON+NIO.md" afterPath="$PROJECT_DIR$/src/cn/tedu/prop/XML+JSON+NIO.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,35 +40,31 @@
     <favorites_list name="Mark-studyspace" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="XML+JSON+NIO.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/tedu/prop/XML+JSON+NIO.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/tedu/seri/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/tedu/prop/jdbc.properties">
+      <file leaf-file-name="Test_Seri.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/tedu/seri/Test_Seri.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test1_Prop.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/tedu/prop/Test1_Prop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="417">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,11 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test1_ArraysBuild.java" />
-        <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test2_RandomArrays.java" />
-        <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test3_Score.java" />
-        <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test4_IndexOut.java" />
-        <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/note.md" />
         <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test5_ArraysMethod.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test6_Foreach.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/Arraysdemo/Test7_DoubleArrays.java" />
@@ -141,13 +135,18 @@
         <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test1_File.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test2_File.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test3_IN.java" />
-        <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test4_Out.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test5_Copy.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/745cede7-0ae6-4714-801f-db055ee36122/console.sql" />
         <option value="$PROJECT_DIR$/src/cn/tedu/IO/Code.java" />
         <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test6_Code.java" />
         <option value="$PROJECT_DIR$/src/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/cn/tedu/prop/Test1_Prop.java" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/prop/spring.xml" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/xml/Test1_Dom4j.java" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/xml/spring.xml" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/seri/Person.java" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/IO/Test4_Out.java" />
+        <option value="$PROJECT_DIR$/src/cn/tedu/seri/Test_Seri.java" />
       </list>
     </option>
   </component>
@@ -164,8 +163,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1032" />
+    <option name="width" value="1291" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -218,24 +217,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Mark-studyspace" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Mark-studyspace" type="616d4139:PackageViewModuleNode" />
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mark-studyspace" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Mark-studyspace" type="616d4139:PackageViewModuleNode" />
-              <item name="cn.tedu" type="1f31426a:PackageElementNode" />
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+              <item name="IO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+              <item name="seri" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tedu" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -265,30 +294,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
+              <item name="Mark-studyspace" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Mark-studyspace" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tedu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mark-studyspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mark-studyspace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tedu" type="462c0819:PsiDirectoryNode" />
-              <item name="prop" type="462c0819:PsiDirectoryNode" />
+              <item name="Mark-studyspace" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Mark-studyspace" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.tedu" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -300,22 +317,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="D:/study/软件和工具/json/jackson-databind-2.9.9.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/IDEA-workspace/Mark-studyspace/src/cn/tedu/extend/Test1_Extends.java&#10;2019&#9;null&#9;null" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA-workspace\Mark-studyspace\src\cn\tedu\OOP" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA-workspace\Mark-studyspace\src\cn\tedu\xml" />
       <recent name="E:\IDEA-workspace\Mark-studyspace\src\cn\tedu\prop" />
       <recent name="E:\IDEA-workspace\Mark-studyspace\src\cn\tedu\OOP" />
       <recent name="E:\IDEA-workspace\Mark-studyspace\src\cn\tedu\finaldemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEA-workspace\Mark-studyspace\src\cn\tedu\OOP" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,70 +348,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test1_Prop.read">
+  <component name="RunManager" selected="JUnit.Test_Seri.deseri">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Test3_IN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.IO.Test3_IN" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Mark-studyspace" />
-      <envs />
-    </configuration>
-    <configuration name="Test4_Out" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.IO.Test4_Out" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Mark-studyspace" />
-      <envs />
-    </configuration>
-    <configuration name="Test5_Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.IO.Test5_Copy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Mark-studyspace" />
-      <envs />
     </configuration>
     <configuration name="Test6_Code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -428,6 +389,31 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="Test1_Dom4j.show" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Mark-studyspace" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.tedu.xml" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.xml.Test1_Dom4j" />
+      <option name="METHOD_NAME" value="show" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="Test1_Prop.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -441,6 +427,56 @@
       <option name="PACKAGE_NAME" value="cn.tedu.prop" />
       <option name="MAIN_CLASS_NAME" value="cn.tedu.prop.Test1_Prop" />
       <option name="METHOD_NAME" value="read" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test_Seri.deseri" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.seri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Mark-studyspace" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.tedu.seri" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.seri.Test_Seri" />
+      <option name="METHOD_NAME" value="deseri" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Test_Seri.seri" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.seri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Mark-studyspace" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.tedu.seri" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.seri.Test_Seri" />
+      <option name="METHOD_NAME" value="seri" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -514,19 +550,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test3_IN" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test4_Out" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test5_Copy" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test6_Code" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test1_Prop.read" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test6_Code" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Test1_Prop.read" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test1_Dom4j.show" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Test_Seri.seri" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test_Seri.deseri" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test1_Prop.read" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test6_Code" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test5_Copy" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test4_Out" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test3_IN" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Test_Seri.deseri" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Test_Seri.seri" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test1_Dom4j.show" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test1_Prop.read" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test6_Code" />
       </list>
     </recent_temporary>
   </component>
@@ -554,44 +590,46 @@
       <workItem from="1572568958717" duration="3313000" />
       <workItem from="1572580061686" duration="1975000" />
       <workItem from="1572605724702" duration="15000" />
-      <workItem from="1572658183118" duration="9460000" />
+      <workItem from="1572658183118" duration="9525000" />
+      <workItem from="1572828877348" duration="444000" />
+      <workItem from="1572951150490" duration="6057000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test1_Prop_read - 2019.11.02 at 17h 03m 07s.xml">
-      <configuration name="Test1_Prop.read" configurationId="JUnit" />
+    <history-entry file="Test_Seri_deseri - 2019.11.05 at 20h 51m 25s.xml">
+      <configuration name="Test_Seri.deseri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_Prop_read - 2019.11.02 at 17h 09m 11s.xml">
-      <configuration name="Test1_Prop.read" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 39m 46s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_Prop_read - 2019.11.02 at 17h 10m 07s.xml">
-      <configuration name="Test1_Prop.read" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 40m 10s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_Prop_read - 2019.11.02 at 17h 11m 14s.xml">
-      <configuration name="Test1_Prop.read" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 41m 10s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_Prop_read - 2019.11.02 at 17h 15m 07s.xml">
-      <configuration name="Test1_Prop.read" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 41m 50s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test1_Prop_read - 2019.11.02 at 17h 15m 27s.xml">
-      <configuration name="Test1_Prop.read" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 42m 22s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Enum_newSeason - 2019.10.28 at 20h 02m 31s.xml">
-      <configuration name="Test_Enum.newSeason" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 43m 09s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Enum_newSeason - 2019.10.28 at 20h 03m 03s.xml">
-      <configuration name="Test_Enum.newSeason" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 43m 26s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Enum_oldSeason - 2019.10.28 at 20h 01m 14s.xml">
-      <configuration name="Test_Enum.oldSeason" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 43m 57s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Enum_testEnum - 2019.10.28 at 20h 05m 28s.xml">
-      <configuration name="Test_Enum.testEnum" configurationId="JUnit" />
+    <history-entry file="Test_Seri_seri - 2019.11.05 at 20h 51m 19s.xml">
+      <configuration name="Test_Seri.seri" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80861000" />
+    <option name="totallyTimeSpent" value="87427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,36 +641,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1032" extended-state="0" />
+    <frame x="0" y="0" width="1291" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3180291" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32439023" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26279864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2716763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30057803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40180588" sideWeight="0.48205927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25554642" sideWeight="0.48205927" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5543478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35327312" sideWeight="0.5179407" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35327312" sideWeight="0.5179407" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,55 +686,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/constructor/Test4_Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/extend/Test1_Extends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/extend/Test2_Extends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/staticdemo/Test1_Static.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/staticdemo/Test1_Static.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/staticdemo/Test2_Static.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/staticdemo/Test4_Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tedu/finaldemo/final 关键字.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -883,20 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test2_File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test4_Out.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tedu/api/AIP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -904,13 +879,6 @@
             <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="3" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test5_Copy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -942,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test3_IN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/397e7247-7d23-4cbd-9342-d3d6c620686b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -974,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +950,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1001,6 +959,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2494">
+          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1016,26 +981,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/prop/Test1_Prop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tedu/prop/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Properties.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/xml/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2494">
-          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        <state relative-caret-position="261">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/tedu/prop/Test1_Prop.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/xml/Test1_Dom4j.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="203">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/seri/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test5_Copy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test4_Out.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/seri/person.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test2_File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4492">
+          <caret line="205" column="15" lean-forward="false" selection-start-line="205" selection-start-column="15" selection-end-line="205" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/IO/Test3_IN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/tedu/seri/Test_Seri.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
