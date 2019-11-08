@@ -1,4 +1,4 @@
-package cn.tedu.generics;
+package cn.tedu.data;
 
 public class Test2_NewStyle {
     public static void main(String[] args) {
