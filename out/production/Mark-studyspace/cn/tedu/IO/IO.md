@@ -176,7 +176,7 @@ BufferedOutputStream(OutputStream out);//创建一个新的缓冲输出流,以�
 
 
 
-# 字节流
+# 字符流
 
 > 常用语处理纯文本
 
