@@ -35,8 +35,6 @@ Reader
 - 输出流用来写出out
 - 数据只能从头到位顺序的读写一次
 
-![](C:\Users\JAVA\Desktop\image002.jpg)
-
 ------
 
 

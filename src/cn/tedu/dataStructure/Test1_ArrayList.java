@@ -19,31 +19,30 @@ public class Test1_ArrayList {
         alist.add("甚平");
 
         alist.remove(4);
-        System.out.println("草帽一伙还剩下多少人? "+ alist.size());
+        System.out.println("草帽一伙还剩下多少人? " + alist.size());
 
-        for (String str :alist) {
-            System.out.print(str+" ");
+        for (String str : alist) {
+            System.out.print(str + " ");
         }
         System.out.println();
         ArrayList<String> blist = new ArrayList<>();
-        blist.add(0,"张学友");
-        blist.add(0,"刘德华");
-        blist.add(0,"黎明");
-        blist.add(0,"郭富城");
+        blist.add(0, "张学友");
+        blist.add(0, "刘德华");
+        blist.add(0, "黎明");
+        blist.add(0, "郭富城");
 
 
         for (String str : blist) {
             System.out.println(str);
         }
         System.out.println(blist.get(0));
-        blist.set(0,"梁朝伟");
+        blist.set(0, "梁朝伟");
         System.out.println(blist.get(0));
 
         ArrayList<String> clist = new ArrayList<>();
         clist.add("秦穆公");
         clist.add("楚庄王");
-        for (String s :
-                clist) {
+        for (String s : clist) {
             System.out.println(s);
         }
 

@@ -35,8 +35,6 @@ Reader
 - 输出流用来写出out
 - 数据只能从头到位顺序的读写一次
 
-![](C:\Users\JAVA\Desktop\image002.jpg)
-
 ------
 
 
@@ -178,7 +176,7 @@ BufferedOutputStream(OutputStream out);//创建一个新的缓冲输出流,以�
 
 
 
-# 字节流
+# 字符流
 
 > 常用语处理纯文本
 
