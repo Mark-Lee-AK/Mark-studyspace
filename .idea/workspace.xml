@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="157602e7-78b6-47eb-a473-fbe00e6f5361" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/JDBC/JDBC.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/tedu/JDBC/Test1_JdbcDemo1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Mark-studyspace.iml" afterPath="$PROJECT_DIR$/Mark-studyspace.iml" />
-      <change beforePath="$PROJECT_DIR$/src/cn/tedu/Thread/Test3_RunnableDemo.java" afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test3_RunnableDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/cn/tedu/Thread/线程.md" afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/线程.md" />
+      <change beforePath="$PROJECT_DIR$/src/cn/tedu/JDBC/Test1_JdbcDemo1.java" afterPath="$PROJECT_DIR$/src/cn/tedu/JDBC/Test1_JdbcDemo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +36,12 @@
       <file leaf-file-name="Test1_JdbcDemo1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/tedu/JDBC/Test1_JdbcDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="388">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1573475467854" expanded="true" signature="618:639" ph="select * fro... account" />
+                <element signature="method#main#0;class#Test1_JdbcDemo1#0" expanded="false" />
+                <marker date="1573477152630" expanded="true" signature="642:663" ph="select * fro... account" />
               </folding>
             </state>
           </provider>
@@ -544,7 +541,7 @@
       <workItem from="1573262385809" duration="16314000" />
       <workItem from="1573432750590" duration="2908000" />
       <workItem from="1573470212394" duration="483000" />
-      <workItem from="1573473816568" duration="2204000" />
+      <workItem from="1573473816568" duration="3332000" />
     </task>
     <servers />
   </component>
@@ -581,7 +578,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119933000" />
+    <option name="totallyTimeSpent" value="121061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,8 +602,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3180291" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32401314" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30375427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="301" y="531" width="1216" height="267" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30375427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="301" y="531" width="1216" height="267" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29579067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.236214" sideWeight="0.48205927" order="0" side_tool="false" content_ui="combo" />
@@ -633,7 +630,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1005,11 +1002,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/tedu/JDBC/Test1_JdbcDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="388">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1573475467854" expanded="true" signature="618:639" ph="select * fro... account" />
+            <element signature="method#main#0;class#Test1_JdbcDemo1#0" expanded="false" />
+            <marker date="1573477152630" expanded="true" signature="642:663" ph="select * fro... account" />
           </folding>
         </state>
       </provider>
