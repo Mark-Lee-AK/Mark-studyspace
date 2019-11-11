@@ -15,7 +15,6 @@ public class Test3_RunnableDemo {
         Thread t = Thread.currentThread();
         String n = t.getName();
         System.out.println(n);
-
     }
     /**/
     static class R1 implements Runnable{
