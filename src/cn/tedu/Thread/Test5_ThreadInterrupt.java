@@ -24,7 +24,7 @@ public class Test5_ThreadInterrupt {
         @Override
         public void run() {
             SimpleDateFormat f = new SimpleDateFormat("HH:mm:ss");
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 20; i++) {
                 String s = f.format(new Date());
                 System.out.println(s);
                 try {
