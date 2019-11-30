@@ -1,155 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="157602e7-78b6-47eb-a473-fbe00e6f5361" name="Default" comment="完成线程冲突的联系">
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/ProducerAndConsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/ProducerAndConsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/ProducerAndConsumer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/ProducerAndConsumer/生产者和消费者.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test10_ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test11_Future.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test12_Future2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test13_Futures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test14_ThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test15_Volatile1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test16_Volatile2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test8_ThreadSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/Test9_ThreadSynchronized2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="157602e7-78b6-47eb-a473-fbe00e6f5361" name="Default" comment="完成volatile2的练习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test1_ArraysBuild.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test1_ArraysBuild.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test2_RandomArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test2_RandomArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test3_Score.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test3_Score.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test4_IndexOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test4_IndexOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test5_ArraysMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test5_ArraysMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test6_Foreach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test6_Foreach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test7_DoubleArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test7_DoubleArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test8_DoubleArrays2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Arraysdemo/Test8_DoubleArrays2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/BreakContinueReturn/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/BreakContinueReturn/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test1_File.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test1_File.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test2_File.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test2_File.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test3_IN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test3_IN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test4_Out.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test4_Out.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test5_Copy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test5_Copy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test6_Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test6_Code.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test7_WrtieAndRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/IO/Test7_WrtieAndRead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/JDBC/Test1_JdbcDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/JDBC/Test1_JdbcDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/ActTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/ActTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/ActTeacher1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/ActTeacher1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/CgbTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/CgbTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/CgbTeacher1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/CgbTeacher1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Father.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Father.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter2Impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter2Impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Inter4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/InterImple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/InterImple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Sharp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Sharp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Student2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Student2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Teacher1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Teacher1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test1_Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test1_Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test2_Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test2_Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test3_Polym.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test3_Polym.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test4_Inter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test4_Inter2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test4_Polym2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test4_Polym2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test5_Abstract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test5_Abstract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test6_Abstract2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test6_Abstract2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test7_Inter1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test7_Inter1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test8_Design.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test8_Design.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test9_Design.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/Test9_Design.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/OOP/human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Scanner/Test2_Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Scanner/Test2_Area.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test1_singleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test1_singleThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test2_ThreadDemo$T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test2_ThreadDemo$T1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test2_ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test2_ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test3_RunnableDemo$R1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test3_RunnableDemo$R1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test3_RunnableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test3_RunnableDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test4_ThreadSleep$T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test4_ThreadSleep$T1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test4_ThreadSleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test4_ThreadSleep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test5_ThreadInterrupt$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test5_ThreadInterrupt$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test5_ThreadInterrupt$T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test5_ThreadInterrupt$T1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test5_ThreadInterrupt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test5_ThreadInterrupt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test6_ThreadJoin$T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test6_ThreadJoin$T1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test6_ThreadJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test6_ThreadJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test7_ThreadConflict$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test7_ThreadConflict$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test7_ThreadConflict$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test7_ThreadConflict$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test7_ThreadConflict.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/Test7_ThreadConflict.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/线程.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/Thread/线程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test1_Object.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test1_Object.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test2_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test2_String.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test3_StringBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test3_StringBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test4_Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test4_Date.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test5_DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/api/Test5_DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test1_Scop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test1_Scop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test3_Exchange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test3_Exchange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test4_Convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test4_Convert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test4_Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test4_Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test5_Computations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test5_Computations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test6_Max.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test6_Max.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test7_LeapYear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test7_LeapYear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test8_Initial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/basic/Test8_Initial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/big/Test1_BigDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/big/Test1_BigDecimal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Car2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Car2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test1_Constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test1_Constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test2_This.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test2_This.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test3_This.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test3_This.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test4_Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/constructor/Test4_Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/data/Test1_OldStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/data/Test1_OldStyle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/data/Test2_NewStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/data/Test2_NewStyle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/data/Test3_Generics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/data/Test3_Generics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test1_ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test1_ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test2_LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test2_LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test3_Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test3_Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test4_Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test4_Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test5_HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test5_HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test6_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test6_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test7_ListAndSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test7_ListAndSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test8_checkArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/dataStructure/Test8_checkArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/enumdemo/OldSeason.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/enumdemo/OldSeason.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/enumdemo/Season.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/enumdemo/Season.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/enumdemo/Test_Enum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/enumdemo/Test_Enum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test1_TestError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test1_TestError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test2_Exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test2_Exception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test3_Finally.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test3_Finally.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test4_Exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/exception/Test4_Exception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/Test1_Extends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/Test1_Extends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/Test2_Extends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/Test2_Extends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/papa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/papa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/papa2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/papa2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/son2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/son2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/yeye.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/extend/yeye.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/finaldemo/Test1_Final.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/finaldemo/Test1_Final.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/finaldemo/papa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/finaldemo/papa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/finaldemo/son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/finaldemo/son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/fordemo/Test1_For.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/fordemo/Test1_For.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/fordemo/Test2_For2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/fordemo/Test2_For2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/ifdemo/Test1_If.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/ifdemo/Test1_If.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/ifdemo/Test2_Switch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/ifdemo/Test2_Switch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/prop/Test1_Prop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/prop/Test1_Prop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/seri/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/seri/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/seri/Test_Seri.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/seri/Test_Seri.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Test1_Static.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Test1_Static.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Test2_Static.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Test2_Static.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Test4_Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/staticdemo/Test4_Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/whiledemo/Test1_While.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/whiledemo/Test1_While.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/whiledemo/Test2_WhileAndDoWhile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/whiledemo/Test2_WhileAndDoWhile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/xml/Test1_Dom4j.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Mark-studyspace/cn/tedu/xml/Test1_Dom4j.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/tedu/Thread/线程.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/tedu/Thread/线程.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +42,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../software/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Tg3BGHjdHIy749Z3DgHX0gmDYe" />
@@ -240,7 +101,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -428,7 +289,8 @@
       <workItem from="1573735618910" duration="1316000" />
       <workItem from="1573816493919" duration="4372000" />
       <workItem from="1573822665253" duration="225000" />
-      <workItem from="1573867775991" duration="15495000" />
+      <workItem from="1573867775991" duration="16437000" />
+      <workItem from="1574006369802" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="完成线程冲突的联系">
       <created>1573822830904</created>
@@ -437,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573822830904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成volatile2的练习">
+      <created>1573892159902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573892159902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -467,6 +336,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成线程冲突的联系" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成线程冲突的联系" />
+    <MESSAGE value="完成volatile2的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成volatile2的练习" />
   </component>
 </project>
