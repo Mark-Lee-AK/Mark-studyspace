@@ -1,4 +1,4 @@
-package cn.tedu.data;
+package cn.tedu.generics;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

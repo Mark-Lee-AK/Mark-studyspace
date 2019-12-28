@@ -1,4 +1,4 @@
-package cn.tedu.data;
+package cn.tedu.generics;
 
 //传统方式通过重载多态实现，方法同名，参数类型不同。
 public class Test1_OldStyle {
